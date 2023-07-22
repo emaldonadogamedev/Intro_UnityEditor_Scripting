@@ -10,6 +10,5 @@ The workshop went over:
 * Additional resources for learning
 
 It was a lot of fun to make this content, and I hope that it can inspire you into looking at Tools Development as a career choice as well!
-You can download the workshop slides here...
+You can download the workshop slides here [Unity Editor UI Workshop.pdf](https://github.com/emaldonadogamedev/Intro_UnityEditor_Scripting/files/12137118/Unity.Editor.UI.Workshop.pdf)...
 ![image](https://github.com/emaldonadogamedev/Intro_UnityEditor_Scripting/assets/10889302/c2e020f9-f23f-4327-8368-644089c81899)
-[Unity Editor UI Workshop.pdf](https://github.com/emaldonadogamedev/Intro_UnityEditor_Scripting/files/12137118/Unity.Editor.UI.Workshop.pdf)
