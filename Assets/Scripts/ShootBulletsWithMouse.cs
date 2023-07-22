@@ -19,11 +19,8 @@ public class ShootBulletsWithMouse : MonoBehaviour
     private float m_bulletSpawnForce = 1000f;
 
 #if UNITY_EDITOR
-    public Vector3 LeftClickBulletSpawnPosition =>
-        m_leftClickBulletSpawnPosition.transform.position;
 
-    public Vector3 RightClickBulletSpawnPosition =>
-        m_rightClickBulletSpawnPosition.transform.position;
+    //TODO: Add necessary properties to access information in editor mode
 
 #endif
 

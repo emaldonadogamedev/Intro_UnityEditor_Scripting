@@ -18,18 +18,7 @@ public class SimpleKeyboardCharacterMovementEditor : Editor
     {
         var simpleKeyboardCharacterMovement = target as SimpleKeyboardCharacterMovement;
 
-        Handles.DrawWireDisc(
-            simpleKeyboardCharacterMovement.transform.position,
-            simpleKeyboardCharacterMovement.transform.up,
-            simpleKeyboardCharacterMovement.moveSpeed);
-
-        Handles.Label(
-            simpleKeyboardCharacterMovement.transform.position,
-            $"Current Speed: {simpleKeyboardCharacterMovement.moveSpeed}");
-
-        Handles.DrawLine(
-            simpleKeyboardCharacterMovement.transform.position,
-            simpleKeyboardCharacterMovement.transform.position + Vector3.up);
+        //TODO: Add custom scene GUI logic here
     }
 
     private void DrawEditorIsPlayingSection()
@@ -44,19 +33,6 @@ public class SimpleKeyboardCharacterMovementEditor : Editor
 
     private void DrawCurrentMovementSection()
     {
-        // target is already included as part of the base 'Editor' class
-        var simpleKeyboardCharacterMovement = target as SimpleKeyboardCharacterMovement;
-
-        EditorGUILayout.LabelField("Current Movement:");
-
-        EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.LabelField(
-                "Horizontal:" + simpleKeyboardCharacterMovement.horizontalInput);
-
-            EditorGUILayout.Space(1f);
-
-            EditorGUILayout.LabelField(
-                "Vertical:" + simpleKeyboardCharacterMovement.verticalInput);
-        EditorGUILayout.EndHorizontal();
+        // TODO: Add custome inspector GUI section here
     }
 }

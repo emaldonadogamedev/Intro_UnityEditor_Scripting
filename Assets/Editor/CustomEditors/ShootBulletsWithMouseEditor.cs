@@ -23,23 +23,11 @@ public class ShootBulletsWithMouseEditor : Editor
 
     private void DrawLeftClickBulletLine(ShootBulletsWithMouse shootBulletsWithMouse)
     {
-        Handles.color = Color.blue;
-
-        Handles.DrawLine(
-            shootBulletsWithMouse.LeftClickBulletSpawnPosition,
-            shootBulletsWithMouse.LeftClickBulletSpawnPosition +
-                (shootBulletsWithMouse.transform.forward * s_clickBulletLineLength),
-            s_clickBulletLineThickness);
+        //TODO: Add logic
     }
 
     private void DrawRightClickBulletLine(ShootBulletsWithMouse shootBulletsWithMouse)
     {
-        Handles.color = Color.red;
-
-        Handles.DrawLine(
-            shootBulletsWithMouse.RightClickBulletSpawnPosition,
-            shootBulletsWithMouse.RightClickBulletSpawnPosition +
-                (shootBulletsWithMouse.transform.forward * s_clickBulletLineLength),
-            s_clickBulletLineThickness);
+        //TODO: Add logic
     }
 }

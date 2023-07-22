@@ -21,7 +21,7 @@ public class EnemyBallSpawner : MonoBehaviour
     private float m_enemyBallSpawnTimer = 0f;
 
 #if UNITY_EDITOR
-    // TODO: Add any properties needed to access component data
+    // TODO: Add any properties needed to access component data in editor mode
 #endif
 
     // Update is called once per frame

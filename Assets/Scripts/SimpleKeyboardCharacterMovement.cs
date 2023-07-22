@@ -2,24 +2,23 @@ using UnityEngine;
 
 public class SimpleKeyboardCharacterMovement : MonoBehaviour
 {
-    [SerializeField]
-    [Range(1f, 15f)]
-    [Tooltip("The speed scalar, not the direction")]
-    private float m_moveSpeed = 5f; // Character movement speed
+    // TODO: does this need to be public?
+    // TODO: Additional attributes?
+    public float m_moveSpeed = 5f; // Character movement speed
+
+    // TODO: does this need to be public?
+    // TODO: Additional attributes?
+    public float m_rotationSpeed = 30f;
 
     private Vector3 m_direction = Vector3.zero;
 
     private float m_horizontalInput = 0f;
     private float m_verticalInput = 0f;
 
-    [SerializeField]
-    [Range(0f, 50f)]
-    private float m_rotationSpeed = 30f;
-
 #if UNITY_EDITOR
-    public float moveSpeed => m_moveSpeed;
-    public float horizontalInput => m_horizontalInput;
-    public float verticalInput => m_verticalInput;
+
+    // TODO: Add necessary properties to access data in editor mode
+
 #endif
 
     private void Update()
